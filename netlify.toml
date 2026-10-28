@@ -1,0 +1,13 @@
+[build]
+  publish = "."
+
+# Keep the old page URL working
+[[redirects]]
+  from = "/beyond-survival.html"
+  to = "/"
+  status = 301
+
+[[redirects]]
+  from = "/beyond-survival"
+  to = "/"
+  status = 301
